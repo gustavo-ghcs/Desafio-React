@@ -1,28 +1,69 @@
+/* PokemonList.css */
 h2 {
-    text-align: center;
-    margin: 0;
-    padding: 10px;
-    background-color: #4cd02467;
-    border-radius: 10px 10px 10px 10px;
-  }
+  text-align: center;
+  margin: 0;
+  padding: 10px;
+  background-color: #4cd02467;
+  border-radius: 10px 10px 10px 10px;
+}
 
 ul {
-    list-style-type: none;
-    padding: 0;
-  }
-  
-  li {
-    padding: 10px;
-    margin: 5px 0;
-    border-radius: 5px;
-  }
-  
-  li:hover {
-    background-color: #b6b2b246;
-  }
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 5px;
+}
+
+li:hover {
+  background-color: #948b8b6c;
+}
 
 .pokemon-list-container {
 max-height: 300px; 
 overflow-y: auto;
 }
-  
+
+/* Estilos para o contêiner principal */
+#pokemon-list-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+
+/* Estilos para a lista de pokemons */
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  padding: 10px;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para o nome do pokemon */
+li span {
+  font-weight: bold;
+  color: #555;
+}
+
+/* Estilos para o ID do pokemon */
+li small {
+  color: #999;
+}
+
+/* Estilos para o rodapé */
+footer {
+  text-align: center;
+  margin-top: 30px;
+  color: #777;
+}
