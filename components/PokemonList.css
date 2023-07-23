@@ -1,0 +1,28 @@
+h2 {
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+    background-color: #4cd02467;
+    border-radius: 10px 10px 10px 10px;
+  }
+
+ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+  }
+  
+  li:hover {
+    background-color: #b6b2b246;
+  }
+
+.pokemon-list-container {
+max-height: 300px; 
+overflow-y: auto;
+}
+  
